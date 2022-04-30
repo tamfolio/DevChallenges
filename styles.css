@@ -51,6 +51,16 @@
     font-weight: 700;
 }
 
+footer {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+    color: #BDBDBD;
+    font-family: montserrat;
+    font-size: 14px;
+}
+
 @media(max-width: 600px) {
     .container {
         padding: 5px 0px 5px 24px;
@@ -74,5 +84,8 @@
         padding-right: 0px;
         font-size: 18px;
         margin-bottom: 60px;
+    }
+    footer {
+        font-size: 7px;
     }
 }
