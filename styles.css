@@ -1,0 +1,9 @@
+.container {
+    padding: 40px 77px;
+}
+
+.header {
+    font-weight: 700;
+    font-family: 'Inconsolata', monospace;
+    font-size: 24px;
+}
