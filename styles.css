@@ -7,7 +7,7 @@
     font-weight: 700;
     font-family: 'Inconsolata', monospace;
     font-size: 24px;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 
 .content {
@@ -24,6 +24,7 @@
 
 .content-right {
     padding: 0px 120px;
+    margin-left: 50px;
 }
 
 .content-right h1 {
@@ -37,12 +38,41 @@
     font-weight: 400;
     color: #4F4F4F;
     padding-right: 246px;
+    margin-bottom: 80px;
 }
 
 .content-right a {
     text-decoration: none;
     text-transform: uppercase;
     background-color: #333;
-    padding: 10px 25px;
+    padding: 24px 43px;
     color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+@media(max-width: 600px) {
+    .container {
+        padding: 5px 0px 5px 24px;
+        max-width: 100%;
+    }
+    .content {
+        flex-direction: column;
+    }
+    .content-left img {
+        width: 286px;
+        height: 238px;
+    }
+    .content-right h1 {
+        font-size: 36px;
+    }
+    .content-right {
+        padding: 0px;
+        margin-left: 0px;
+    }
+    .content-right p {
+        padding-right: 0px;
+        font-size: 18px;
+        margin-bottom: 60px;
+    }
 }
