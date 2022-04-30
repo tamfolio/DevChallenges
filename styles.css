@@ -1,9 +1,48 @@
 .container {
     padding: 40px 77px;
+    max-width: 100%;
 }
 
 .header {
     font-weight: 700;
     font-family: 'Inconsolata', monospace;
     font-size: 24px;
+    margin-bottom: 200px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Space Mono', monospace;
+}
+
+.content-left img {
+    width: 539px;
+    height: 447px;
+}
+
+.content-right {
+    padding: 0px 120px;
+}
+
+.content-right h1 {
+    font-size: 64px;
+    font-weight: 700;
+    color: #333333;
+}
+
+.content-right p {
+    font-size: 24px;
+    font-weight: 400;
+    color: #4F4F4F;
+    padding-right: 246px;
+}
+
+.content-right a {
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #333;
+    padding: 10px 25px;
+    color: #fff;
 }
